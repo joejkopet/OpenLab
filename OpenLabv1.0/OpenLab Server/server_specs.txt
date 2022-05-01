@@ -1,0 +1,10 @@
+Operating System: CentOS Stream 8
+Memory (RAM): 4GB
+Processor: Intel Xeon(R) CPU E5-2650 v4 @ 2.20GHz x 2
+OS type: 64-bit
+
+Python version: 3.6.8
+Nginx version: 1.14.1
+Flask version: 0.12.2
+Gunicorn version: 20.0.4
+Ansible version: 2.12.3

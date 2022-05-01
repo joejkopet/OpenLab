@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve OpenLab
+After=network.target
+
+[Service]
+User=openlab
+Group=openlab
+WorkingDirectory=/etc/openlab/grading
+Environment="PATH=/usr/bin"
+ExecStart=/usr/bin/gunicorn --workers 3 --bind unix:openlab.sock -m 007 openlab_wsgi
+
+[Install]
+WantedBy=multi-user.target

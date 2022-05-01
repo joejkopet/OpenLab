@@ -1,0 +1,14 @@
+service password-encryption
+aaa authentication login default group tacacs+ local
+aaa authorization config-commands
+aaa accounting commands 15 default start-stop group tacacs+
+aaa accounting commands visible-keys
+ip ssh version 2
+interface Vlan$VLANID
+ ip address $IPAddress $Subnetmask
+tacacs-server host $OpenLabServerIPAddress
+tacacs-server key $SharedKey
+line vty 0 4
+ privilege level 15
+ logging synchronous
+ transport input ssh

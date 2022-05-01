@@ -1,0 +1,21 @@
+---
+
+- name: Resetting OpenLab equipment 
+  hosts: station1-switches, station1-routers
+  gather_facts: false
+
+  tasks:
+   - name: Reloading the equipment
+     cli_command:
+       command: reload
+       prompt:
+        - Save?
+        - confirm
+       answer:
+        - n
+        - y
+     register: output
+
+   - name: print output
+     debug:
+       var: output.stdout_lines

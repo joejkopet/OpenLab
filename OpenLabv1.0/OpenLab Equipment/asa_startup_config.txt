@@ -1,0 +1,10 @@
+aaa authentication serial console openlab LOCAL
+aaa authentication telnet console openlab LOCAL
+aaa authentication ssh console openlab LOCAL
+aaa accounting serial console openlab
+aaa accounting telnet console openlab
+aaa accounting ssh console openlab
+aaa accounting command openlab
+aaa-server openlab protocol tacacs+
+aaa-server openlab (inside) host $OpenLabServerIPAddress
+ key *****

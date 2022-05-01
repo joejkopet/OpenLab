@@ -1,0 +1,12 @@
+Routers:
+Cisco IOS Software, C1900 Software (C1900-UNIVERSALK9-M), Version 15.4(3)M3
+CISCO1941/K9
+
+Switches:
+Cisco IOS Software, C2960 Software (C2960-LANBASEK9-M), Version 15.0(2)SE8
+WS-C2960+24TC-L 
+
+Firewalls:
+Cisco Adaptive Security Appliance Software Version 9.2(2)4
+ASA5505
+

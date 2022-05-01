@@ -1,0 +1,31 @@
+[station1-switches]
+Station1-S1 ansible_host=$S1IP
+Station1-S2 ansible_host=$S2IP
+Station1-S3 ansible_host=$S3IP
+
+[station1-routers]
+Station1-R1 ansible_host=$R1IP
+Station1-R2 ansible_host=$R2IP
+Station1-R3 ansible_host=$R3IP
+
+[station1-firewalls]
+Station1-ASA1 ansible_host=$ASA1IP
+Station1-ASA2 ansible_host=$ASA2IP
+
+[station1-switches:vars]
+ansible_network_os=ios
+ansible_user=ansible
+ansible_password=
+ansible_connection=network_cli
+
+[station1-routers:vars]
+ansible_network_os=ios
+ansible_user=ansible
+ansible_password=
+ansible_connection=network_cli
+
+[station1-firewalls:vars]
+ansible_network_os=ios
+ansible_user=ansible
+ansible_password=
+ansible_connection=network_cli

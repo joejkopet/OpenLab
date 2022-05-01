@@ -1,0 +1,7 @@
+Operating System: Windows 10 Education 21H1 19043.1645
+Memory (RAM): 4GB
+Processor: Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz   2.19 GHz  (2 processors)
+OS type: 64-bit
+
+Python version: 3.10.2
+PuTTY version: 0.76

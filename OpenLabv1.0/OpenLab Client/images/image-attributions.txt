@@ -1,0 +1,4 @@
+#Router Image: https://commons.wikimedia.org/wiki/File:Router_symbol-Blue.svg; Michel Bakni, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+#Switch Image: https://commons.wikimedia.org/wiki/File:Switch_symbol-Blue.svg; Michel Bakni, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+#Firewall Image: https://commons.wikimedia.org/wiki/File:Firewall_Symbol_-_blue.svg; Michel Bakni, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons
+#Icon: "https://www.flaticon.com/free-icons/server" Server icons created by RaftelDesign - Flaticon
