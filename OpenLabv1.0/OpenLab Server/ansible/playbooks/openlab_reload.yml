@@ -1,7 +1,7 @@
 ---
 
 - name: Resetting OpenLab equipment 
-  hosts: station1-switches, station1-routers
+  hosts: station1-routers, station1-switches
   gather_facts: false
 
   tasks:
@@ -9,8 +9,8 @@
      cli_command:
        command: reload
        prompt:
-        - Save?
-        - confirm
+        - modified
+        - reload
        answer:
         - n
         - y
@@ -19,3 +19,6 @@
    - name: print output
      debug:
        var: output.stdout_lines
+   - name: Wait
+     wait_for_connection:
+       delay: 10
