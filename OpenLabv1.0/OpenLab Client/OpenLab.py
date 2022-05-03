@@ -18,17 +18,17 @@ with open(r'config\openlabserver.cfg') as o:
 global OpenLabClassName
 OpenLabClassName = 'classnamehere'
 
-LP1_1_Friendly = "4.4.7 Lab - Configure Administrative Access"
-LP1_2_Friendly = "4.4.9 Lab - Configure Network Devices with SSH"
-LP2_1_Friendly = "5.2.5 Lab - Configure Administrative Roles"
-LP2_2_Friendly = "6.2.7 Lab - Configure Automated Security Features"
-LP2_3_Friendly = "6.3.6 Lab - Basic Device Configuration and OSPF Authentication"
-LP2_4_Friendly = "7.2.5 Lab - Configure Local AAA Authentication"
-LP3_1_Friendly = "10.3.12 Lab - Configure ZPFs"
-LP4_1_Friendly = "14.9.9 Lab - Configure STP Security"
-LP6_1_Friendly = "19.5.6 Lab - Configure a Site-to-Site VPN"
-LP7_1_Friendly = "21.2.10 Lab - Configure ASA Basic Settings Using the CLI"
-LP8_1_Friendly = "Final Lab Exam"
+LP1_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP1_2_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP2_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP2_2_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP2_3_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP2_4_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP3_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP4_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP6_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP7_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
+LP8_1_Friendly = "$FriendlyNameThatStudentsWillSeeInTheLabSubMenu"
 
 def main_menu():
     global root
