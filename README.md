@@ -1,8 +1,11 @@
 # OpenLab
+Where does the name come from? It's **open** source **lab** software.
+
 Lab software that integrates with Cisco equipment to provide students with a real-world learning experience. OpenLab acts as an alternative to simulation tools. 
 
-**This software is <ins>NOT</ins> associated with Cisco Systems, Inc!**
-<br>
+**This software is <ins>NOT</ins> associated with Cisco Systems, Inc... or any other product with a similar name. This is a community project to further education for the greater good with no profit motive.**
+
+
 **This is meant to be integrated into a Cisco Networking Academy enviornment. Labs are intentionally blurred out or changed to avoid copyright issues. You can find more information on their website: https://www.netacad.com**
 
 Screenshots:
