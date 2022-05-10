@@ -114,7 +114,7 @@ fi
 echo "" 
 echo "Lab completion is $completion/10 pts."
 if [[ "$completion" -eq 10 ]]; then
-   ansible-playbook /etc/ansible/playbooks/openlab_reload.yml
+   nohup ansible-playbook /etc/ansible/playbooks/openlab_reload.yml &> /dev/null &
 else
    echo "Not complete."  
 fi
